@@ -28,19 +28,19 @@
         default_layer {
             bindings = <
               &kp ESC         &kp N1  &kp N2        &kp N3             &kp N4     &kp N5    &kp N6     &kp N7     &kp N8                   &kp N9        &kp N0    &kp MINUS
-&kp LC(LEFT)  &kp TAB         &kp Q   &kp W         &kp E              &kp R      &kp T     &kp Y      &kp U      &kp I                    &kp O         &kp P     &kp BACKSLASH   &kp LC(RIGHT)
+&kp LC(LEFT)  &kp TAB         &kp Q   &kp W         &kp E              &kp R      &kp T     &kp Y      &kp U      &kp I                    &kp O         &kp P     &kp BACKSLASH               &kp LC(RIGHT)
               &kp LEFT_SHIFT  &kp A   &kp S         &kp D              &kp F      &kp G     &kp H      &kp J      &kp K                    &kp L         &kp SEMI  &kp SQT
-              &kp LCTRL       &kp Z   &kp X         &kp C              &kp V      &kp B     &kp N      &kp M      &kp COMMA                &kp DOT       &kp FSLH  &kp LEFT_BRACE
+              &kp LCTRL       &kp Z   &kp X         &kp C              &kp V      &kp B     &kp N      &kp M      &kp COMMA                &kp DOT       &kp FSLH  &mt LEFT_BRACE RIGHT_BRACE
                                       &kp LEFT_ALT  &mt DELETE DELETE  &kp SPACE  &sl 1     &kp ENTER  &kp SPACE  &mt BACKSPACE BACKSPACE  &kp LEFT_WIN
             >;
         };
 
         lower_layer {
             bindings = <
-        &trans          &kp F1    &kp F2  &kp F3     &kp F4    &kp F5       &kp F6  &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
-&trans  &kp UNDER       &trans    &trans  &trans     &trans    &trans       &trans  &trans          &kp UP_ARROW    &trans           &trans   &trans   &mt RGUI F12
-        &mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH   &kp DLLR  &kp PRCNT    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
-        &mt LALT EQUAL  &kp N1    &kp N2  &kp N3     &kp N4    &kp N5       &trans  &trans          &trans          &trans           &trans   &trans
+        &trans          &kp F1    &kp F2  &kp F3     &kp F4    &kp F5       &kp F6  &kp F7          &kp F8          &kp F9           &kp F10         &kp F11
+&trans  &kp UNDER       &trans    &trans  &trans     &trans    &trans       &trans  &trans          &kp UP_ARROW    &trans           &kp LEFT_BRACE  &kp RIGHT_BRACE                 &mt RGUI F12
+        &mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH   &kp DLLR  &kp PRCNT    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans          &trans
+        &mt LALT EQUAL  &kp N1    &kp N2  &kp N3     &kp N4    &kp N5       &trans  &trans          &trans          &trans           &trans          &mt LEFT_BRACKET RIGHT_BRACKET
                                   &trans  &lt 3 TAB  &trans    &trans       &trans  &trans          &lt 3 DEL       &trans
             >;
         };
